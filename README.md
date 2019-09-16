@@ -37,6 +37,7 @@ A successful submission for this lab will include a Java program which:
 - [ ] Contains **2** single-line comments which respond to questions asked in them.
 - [ ] Uses the following variable names to track the calculations you'll do:
 * `volumeGold`,`volumeSilver`,`pctGold`,`pctSilver`
+- [ ] Has at least **3** commits
 
 This submission should also include a `reflection.md` file stored in the `writing` directory which:
 
@@ -44,7 +45,7 @@ This submission should also include a `reflection.md` file stored in the `writin
 - [ ] Uses **1** list
 - [ ] Employs **1** code block
 - [ ] Has a structure using **3** headings
-- [ ] Reponds (directly or indirectly) to these concerns:
+- [ ] Responds (directly or indirectly) to these concerns:
 * What type of number variable did you eventually have to choose? Why?
 * Describe the difficulty of implementing the volume equation you chose. How did you overcome it? How long did it take you? What did you learn? You may add your own areas of investigation here.
 * In this exercise we used command line arguments, but had to transform them from Strings to integers. Why did we do that?

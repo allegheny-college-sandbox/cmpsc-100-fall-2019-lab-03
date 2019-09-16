@@ -6,6 +6,7 @@ package crownparty;
  */
 public class CrownComposition {
   
+  
   /*
    * Replace this comment with a single-line comment explanation of why the variables
    * "densityGold" and "densitySilver" are represented as "final." Don't worry about
@@ -24,6 +25,7 @@ public class CrownComposition {
     int weightTotal = Integer.parseInt(args[0]);
     int volumeTotal = Integer.parseInt(args[1]);
     // TODO Implement the correct variable types throughout; integers? floats? doubles?
+    // TODO Work the math out on paper; what kind of number do you see?
     int volumeGold;
     int volumeSilver;
     // TODO Only implement one volume equation and remove this comment.

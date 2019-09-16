@@ -22,6 +22,6 @@ writing:
         CountMarkdownTags --tag "code_block" --count 1
         MatchFileFragment --fragment "TODO" --count 0 --exact
         
-CountCommits --count 2
+CountCommits --count 3
 ExecuteCommand --command "gradle build"
 MatchCommandRegex --command "gradle run --args='1337 100'" --regex "The crown is 49.0% gold and 50.0% silver." --count 1 --exact
