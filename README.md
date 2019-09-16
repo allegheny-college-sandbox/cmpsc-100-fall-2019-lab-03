@@ -50,6 +50,7 @@ This submission should also include a `reflection.md` file stored in the `writin
 * In this exercise we used command line arguments, but had to transform them. Why did we do that?
     * As an optimization, is `int` still the right type for these variables?
     * What happens if we enter decimals in our `run` command: `gradle run --args="1337.1 101.1"`?
+* Did Gator Wizard (commonly now know to friends as G. Wiz) get what he wanted?
 
 ## A story
 
@@ -102,7 +103,7 @@ The above is the test case that I'll be looking for in the GatorGrader criteria.
 
 If you do not already have the GatorGrader `container`, in a new terminal or Docker Quickstart Terminal, type `docker pull gatoreducator/dockagator` to download the correct `container`.
 
-In the last lab session, we were able to get Docker `container` versions of GatorGrader working! That means that everyone can choose to use the `container` if they'd like. Here are a couple of ways to do it:
+In the last lab session, we were able to get Docker `container` versions of GatorGrader working! That means that everyone can choose to use the `container` if they'd like. Here are a couple of ways to do it.
 
 #### Running GatorGrader directly on `container` start
 
