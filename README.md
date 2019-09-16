@@ -45,10 +45,10 @@ This submission should also include a `reflection.md` file stored in the `writin
 - [ ] Employs **1** code block
 - [ ] Has a structure using **3** headings
 - [ ] Reponds (directly or indirectly) to these concerns:
-* What type of number variable did you eventually have to choose. Why?
+* What type of number variable did you eventually have to choose? Why?
 * Describe the difficulty of implementing the volume equation you chose. How did you overcome it? How long did it take you? What did you learn? You may add your own areas of investigation here.
-* In this exercise we used command line arguments, but had to transform them. Why did we do that?
-    * As an optimization, is `int` still the right type for these variables?
+* In this exercise we used command line arguments, but had to transform them from Strings to integers. Why did we do that?
+    * As an exercise in thinking about future optimization, is `int` still the right type for these variables?
     * What happens if we enter decimals in our `run` command: `gradle run --args="1337.1 101.1"`?
 * Did Gator Wizard (commonly now know to friends as G. Wiz) get what he wanted?
 
