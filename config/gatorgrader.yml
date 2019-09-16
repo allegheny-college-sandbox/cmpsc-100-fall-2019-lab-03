@@ -1,0 +1,27 @@
+---
+name: lab-03
+break: true
+indent: 4
+---
+src/main:
+    java:
+        crowns/CrownComposition.java:
+            ConfirmFileExists
+            CountSingleLineComments --language Java --count 2
+            CountMultipleLineComments --language Java --count 3
+            MatchFileFragment --fragment "TODO" --count 0 --exact
+            MatchFileFragment --fragment "{YOUR NAME HERE}" --count 0 --exact
+            MatchFileRegex --regex "float" --count 6
+        
+writing:
+    reflection.md:
+        ConfirmFileExists
+        CountFileWords --count 200
+        CountMarkdownTags --tag "heading" --count 3
+        CountMarkdownTags --tag "list" --count 1
+        CountMarkdownTags --tag "code_block" --count 1
+        MatchFileFragment --fragment "TODO" --count 0 --exact
+        
+CountCommits --count 2
+ExecuteCommand --command "gradle build"
+MatchCommandRegex --command "gradle run --args='1337 100'" --regex "The crown is 49.0% gold and 50.0% silver." --count 1 --exact
