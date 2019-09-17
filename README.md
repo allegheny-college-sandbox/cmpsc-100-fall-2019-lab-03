@@ -37,7 +37,7 @@ A successful submission for this lab will include a Java program which:
 - [ ] Contains **2** single-line comments which respond to questions asked in them.
 - [ ] Uses the following variable names to track the calculations you'll do:
 * `volumeGold`,`volumeSilver`,`pctGold`,`pctSilver`
-- [ ] Has at least **3** commits
+- [ ] Has at least **3**
 
 This submission should also include a `reflection.md` file stored in the `writing` directory which:
 
@@ -51,7 +51,7 @@ This submission should also include a `reflection.md` file stored in the `writin
 * In this exercise we used command line arguments, but had to transform them from Strings to integers. Why did we do that?
     * As an exercise in thinking about future optimization, is `int` still the right type for these variables?
     * What happens if we enter decimals in our `run` command: `gradle run --args="1337.1 101.1"`?
-* Did Gator Wizard (commonly now know to friends as G. Wiz) get what he wanted?
+* Did Gator Wizard (commonly now known to friends as G. Wiz) get what he wanted?
 
 ## A story
 

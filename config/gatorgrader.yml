@@ -24,4 +24,4 @@ writing:
         
 CountCommits --count 3
 ExecuteCommand --command "gradle build"
-MatchCommandRegex --command "gradle run --args='1337 100'" --regex "The crown is 49.0% gold and 50.0% silver." --count 1 --exact
+MatchCommandRegex --command "gradle run --args='1337 100'" --regex "The crown is 50.0% gold and 50.0% silver." --count 1 --exact
